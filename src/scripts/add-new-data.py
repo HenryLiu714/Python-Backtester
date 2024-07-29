@@ -29,7 +29,7 @@ class AddData(object):
             database = os.environ['FUTURES_DB']
             )
         
-        start_date = datetime.datetime.today() - datetime.timedelta(days=7)
+        start_date = datetime.datetime.today() - datetime.timedelta(days=6)
         end_date = datetime.datetime.today() + datetime.timedelta(days=1)
 
         start_date = start_date.strftime('%Y-%m-%d')
