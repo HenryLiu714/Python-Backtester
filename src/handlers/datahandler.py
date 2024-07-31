@@ -49,7 +49,6 @@ class MySQLDataHandler(DataHandler):
         }
 
         self.data = {symbol:empty.copy() for symbol in tables}
-        print(self.data)
 
         # Connect to database
         conn = mysql.connector.connect(
